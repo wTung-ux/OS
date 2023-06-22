@@ -209,48 +209,5 @@ namespace tracker_OS
             return "Mac Address: " + addr;
         }
 
-        public void GetModel()
-        {
-            //ManagementClass myManagementClass = new ManagementClass("Win32_ComputerSystem");
-            //ManagementObjectCollection myManagementCollection = myManagementClass.GetInstances();
-            //PropertyDataCollection myProperties = myManagementClass.Properties;
-            //Dictionary<string, object> myPropertyResults = new Dictionary<string, object>();
-
-            //foreach (var obj in myManagementCollection)
-            //{
-            //    foreach (var myProperty in myProperties)
-            //    {
-            //        myPropertyResults.Add(myProperty.Name,
-            //           obj.Properties[myProperty.Name].Value);
-            //    }
-            //}
-
-            //foreach (var myPropertyResult in myPropertyResults)
-            //{
-            //    Console.WriteLine("{0}: {1}", myPropertyResult.Key, myPropertyResult.Value);
-            //}
-
-            //try
-            //{
-            //    ManagementObjectSearcher searcher =
-            //        new ManagementObjectSearcher("root\\CIMV2",
-            //        "SELECT * FROM Win32_NetworkAdapter");
-
-            //    foreach (ManagementObject queryObj in searcher.Get())
-            //    {
-            //        Console.WriteLine("{0}", queryObj["Caption"]);
-            //    }
-            //}
-            //catch (ManagementException e)
-            //{
-            //    MessageBox.Show("An error occurred while querying for WMI data: " + e.Message);
-            //}
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            
-        }
-
     }
 }
